@@ -21,12 +21,6 @@ Content: The site will mostly be composed of borrowed content in the form of new
 
 Organization: The site will have our pages: Home, About, Contact, and an E-Store. The site will be organized around one, central static home page that users can interact with to show/hide content of interest. Users will interact with a side navigation menu that will have different categories from which users may select from categories of content related to either: Art/Music, Business/Politics, S.T.E.M., and Local/National/International news. When selected, the panel slides out, giving users the option to choose to filter the content by type: video, written (articles), or images (memes). After selecting the form of content desired, users can choose from the available thumbnail links what they want to view.  
 
- 
-
-[Text Wrapping Break] 
-
- 
-
 JQuery & AJAX: When hovered over, thumbnail links display a caption of the content; video links play a short preview clip. When selected, content fills the view window on the same (home) page as opposed to being loaded on a separate page or in a new window. Content that is not original will have a link that will allow users to leave the website to view the original source of the content. AJAX can be used to incorporate original content (such as videos, text, or images) from the server into the website without having to disrupt the user experience. The site will content will be navigated through the home page without having to reload. The navigation tabs on the home page will be used to show/hide content based on what the user clicks. 
 
 Maintenance: To ensure ease of maintenance, the website documents will be labeled and nested inside of folders to keep content on the server separated by file type (i.e. images, CSS, JavaScript, etc.). Also, the lines of code will have detailed comments to ensure that whoever is responsible for managing content can find where everything is currently and where new items should be placed. For example, the content window where videos/articles/memes will be displayed when selected, will be labeled in the code so that the content manager will know what ID or class reference to make to pull content to that area of the page. 
